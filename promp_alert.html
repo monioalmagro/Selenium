@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promp alert</title>
+</head>
+<body>
+<button name = "promp_alert" onclick="myFunction()">try</button>
+<p id="demostracion" ></p>    
+<script>
+function myFunction(){
+    var texto;
+    var usuario = prompt("Por favor ingresa tu nombre: ", "aca va tu nombre");
+       if (usuario == null || usuario == "") {
+           texto = "usuario a cancelado en vio de datos."
+       } else {
+           texto = "hola " + usuario + "!Welcome¡"
+       }
+       
+        document.getElementById("demostracion").innerHTML = texto;
+    }
+</script>
+
+</body>
+</html>
