@@ -19,3 +19,8 @@ Ejercicio 21 = Manejo de confirm alert
 Ejercicio 22 = Automatizando Promp Alert
 Ejercicio 23 = Permisos de notificacion
 Ejercicio 24 = Manejando :INI .CONFIG
+Ejercicio 25 = pytesseract imagenes tipo catpcha
+Ejercicio 26 = Usando Scroll Down
+Ejercicio 27
+Ejercicio 28
+Ejercicio 29
