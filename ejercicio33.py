@@ -22,7 +22,7 @@ class usando_unittest(unittest.TestCase):
             self.driver.switch_to.window(handle)
             print(self.driver.title)
 
-        def tearDown(self):
+    def tearDown(self):
             self.driver.close()
 
 if __name__ == "__main__":
